@@ -34,3 +34,10 @@ TEST(PracticeTest, is_empty_palindrome)
     bool actual = obj.isPalindrome("");
     ASSERT_TRUE(actual);
 }
+
+TEST(PracticeTest, is_not_case_sensitive)
+{
+    Practice obj;
+    bool actual = obj.isPalindrome("baB");
+    ASSERT_TRUE(actual);
+}
