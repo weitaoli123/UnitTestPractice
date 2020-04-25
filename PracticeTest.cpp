@@ -48,3 +48,14 @@ TEST(PracticeTest, consider_spaces)
     bool actual = obj.isPalindrome("a ba");
     ASSERT_FALSE(actual);
 }
+
+TEST(PracticeTest, consider_spaces)
+{
+    Practice obj;
+    int one = 1;
+    int two = 1;
+    int three = 2;
+    obj.sortDescending(one,two,three);
+    ASSERT_LE(one,two);
+    ASSERT_LE(two,three);
+}
