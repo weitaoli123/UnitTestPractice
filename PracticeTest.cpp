@@ -81,3 +81,14 @@ TEST(PracticeTest, sorts_desecend3)
     ASSERT_GE(one,two);
     ASSERT_GE(two,three);
 }
+
+TEST(PracticeTest, sorts_desecend4)
+{
+    Practice obj;
+    int one = 1;
+    int two = -3;
+    int three = 2;
+    obj.sortDescending(one,two,three);
+    ASSERT_GE(one,two);
+    ASSERT_GE(two,three);
+}
