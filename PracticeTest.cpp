@@ -45,6 +45,6 @@ TEST(PracticeTest, is_not_case_sensitive)
 TEST(PracticeTest, consider_spaces)
 {
     Practice obj;
-    bool actual = obj.isPalindrome(" aba");
+    bool actual = obj.isPalindrome("a ba");
     ASSERT_FALSE(actual);
 }
