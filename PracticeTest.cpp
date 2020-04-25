@@ -49,7 +49,7 @@ TEST(PracticeTest, consider_spaces)
     ASSERT_FALSE(actual);
 }
 
-TEST(PracticeTest, consider_spaces)
+TEST(PracticeTest, sorts_desecend)
 {
     Practice obj;
     int one = 1;
