@@ -49,13 +49,35 @@ TEST(PracticeTest, consider_spaces)
     ASSERT_FALSE(actual);
 }
 
-TEST(PracticeTest, sorts_desecend)
+TEST(PracticeTest, sorts_desecend1)
 {
     Practice obj;
     int one = 1;
     int two = 1;
     int three = 2;
     obj.sortDescending(one,two,three);
-    ASSERT_LE(one,two);
-    ASSERT_LE(two,three);
+    ASSERT_GE(one,two);
+    ASSERT_GE(two,three);
+}
+
+TEST(PracticeTest, sorts_desecend2)
+{
+    Practice obj;
+    int one = 3;
+    int two = 2;
+    int three = 1;
+    obj.sortDescending(one,two,three);
+    ASSERT_GE(one,two);
+    ASSERT_GE(two,three);
+}
+
+TEST(PracticeTest, sorts_desecend3)
+{
+    Practice obj;
+    int one = 1;
+    int two = 3;
+    int three = 2;
+    obj.sortDescending(one,two,three);
+    ASSERT_GE(one,two);
+    ASSERT_GE(two,three);
 }
