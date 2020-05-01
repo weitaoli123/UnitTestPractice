@@ -82,7 +82,7 @@ TEST(PracticeTest, sorts_desecend3)
     ASSERT_GE(two,three);
 }
 
-TEST(PracticeTest, sorts_desecend3)
+TEST(PracticeTest, sorts_desecend4)
 {
     Practice obj;
     int one = 3;
@@ -93,7 +93,7 @@ TEST(PracticeTest, sorts_desecend3)
     ASSERT_GE(two,three);
 }
 
-TEST(PracticeTest, sorts_desecend4)
+TEST(PracticeTest, sorts_desecend5)
 {
     Practice obj;
     int one = 2;
